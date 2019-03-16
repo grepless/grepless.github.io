@@ -1,0 +1,77 @@
+/*
+  Copyright 2019 grepless [grepless(at)secmail.pro]
+  Licensed under the Apache License, Version 2.0
+*/
+*
+{
+  padding:                    0;
+  margin:                     0;
+}
+body
+{
+  font-family:                "Courier New", Courier, monospace;
+  font-size:                  14px;
+  color:                      #dcdcdc;
+  background:                 #dcdcdc;
+  margin:                     auto;
+  padding-top:                10px;
+}
+.window
+{
+  background:                 #3f3f3f;
+  box-shadow:                 0 0 10px rgba(0,0,0,0.5);
+  border-radius:              5px;
+  border:                     2px solid #cfcfcf;
+  width:                      480px;
+  margin:                     auto;
+
+}
+.window_header
+{
+  background:                 #cfcfcf;
+  color:                      #333;
+  padding:                    7px;
+
+}
+.window_title
+{
+  display:                    inline-block;
+}
+.window_minimize_button, .window_maximize_button, .window_close_button
+{
+  border-radius:              7px;
+  width:                      12px;
+  height:                     12px;
+  display:                    inline-block;
+  float:                      right;
+  margin-left:                4px;
+}
+.window_minimize_button
+{
+  background:                 #2cc640;
+  border:                     1px solid #51a75c;
+  
+}
+.window_maximize_button
+{
+  background:                 #fdbf2e;
+  border:                     1px solid #d6a839;  
+}
+.window_close_button 
+{
+  background:                 #fe6256;
+  border:                     1px solid #ca5f59;  
+}
+.window_content
+{
+  padding:                    7px;
+}
+.blink
+{
+  animation:                  blinking 1s infinite;
+}
+@keyframes blinking
+{
+  0% { clear: both; }
+  50%{ color: transparent; }    
+}

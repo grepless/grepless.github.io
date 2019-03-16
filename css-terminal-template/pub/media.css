@@ -1,0 +1,12 @@
+/*
+  Copyright 2019 grepless [grepless(at)secmail.pro]
+  Licensed under the Apache License, Version 2.0
+*/
+@media screen and (max-width: 800px)
+{
+  .window
+  {
+    width:                    95%;
+    padding:                  10px;
+  }
+}
